@@ -18,3 +18,21 @@ model users {
   image     String
   createdAt DateTime @default(now())
 }
+
+model source {
+  id          Int       @id @default(autoincrement())
+  name        String
+  url         String    @unique
+  createdAt   DateTime  @default(now())
+  lastScraped DateTime?
+  results     result[]
+}
+
+model result {
+  id        Int      @id @default(autoincrement())
+  sourceId  Int
+  title     String
+  url       String
+  createdAt DateTime @default(now())
+  source    source   @relation(fields: [sourceId], references: [id])
+}
