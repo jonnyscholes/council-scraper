@@ -8,7 +8,7 @@ import ExpandingArrow from "@/components/expanding-arrow";
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const baseUrl = process.env.VERCEL === '1' ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000';
+  const baseUrl = process.env.VERCEL === '1' ? `https://${process.env.VERCEL_BRANCH_URL}` : 'http://localhost:3000';
   console.log('baseUrl', baseUrl);
   const data = await fetch(`${baseUrl}/data.json`);
   const websites = await data.json();
