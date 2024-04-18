@@ -9,14 +9,7 @@ export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const data = await fetch(`http://localhost:3000/data.json`);
-  const json = await data.json();
-
-  const websites = [];
-
-  json.forEach((w) => {
-    const rows = w[0];
-    websites.push({ rows, base: w[1][0] });
-  });
+  const websites = await data.json();
 
   return (
     <main className="wrapper">
