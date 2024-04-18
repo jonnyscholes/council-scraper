@@ -8,7 +8,7 @@ import ExpandingArrow from "@/components/expanding-arrow";
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const data = await fetch(`http://localhost:3000/data.json`);
+  const data = await fetch(`data.json`);
   const websites = await data.json();
 
   return (
