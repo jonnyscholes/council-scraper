@@ -148,6 +148,8 @@ td {
   padding: 3px 5px;
   border: 1px solid var(--t-color);
   text-decoration: none;
+  position: relative;
+  padding-left: 25px;
 }
 .tagCloud button.selected {
   color: black;
@@ -158,6 +160,31 @@ td {
 .tagCloud button:hover,
 .tagCloud button:focus {
   text-decoration: underline;
+}
+
+.tagCloud button::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--t-color);
+  background-color: black;
+}
+
+.tagCloud button:hover::after,
+.tagCloud button.selected::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: var(--t-color);
+  /* opacity: 0; */
 }
 
 input:focus,
