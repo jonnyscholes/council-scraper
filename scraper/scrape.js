@@ -228,6 +228,333 @@ const NSW_WEBSITES = [
   "http://www.yassvalley.nsw.gov.au/",
 ];
 
+const SA_WEBSITES = [
+  "https://www.cityofadelaide.com.au/about-council/your-council/elections/",
+  "http://www.ahc.sa.gov.au/",
+  "http://www.mallala.sa.gov.au/",
+  "http://www.alexandrina.sa.gov.au/",
+  "http://www.barossa.sa.gov.au/",
+  "http://www.barungawest.sa.gov.au/",
+  "http://www.berribarmera.sa.gov.au/",
+  "http://www.burnside.sa.gov.au/",
+  "http://www.campbelltown.sa.gov.au/",
+  "http://www.ceduna.sa.gov.au/",
+  "http://www.charlessturt.sa.gov.au/",
+  "http://www.claregilbertvalleys.sa.gov.au/",
+  "http://www.cleve.sa.gov.au/",
+  "http://www.cooberpedy.sa.gov.au/",
+  "http://www.coorong.sa.gov.au/",
+  "http://www.coppercoast.sa.gov.au/",
+  "http://www.elliston.sa.gov.au/",
+  "http://www.frc.sa.gov.au/",
+  "http://www.franklinharbour.sa.gov.au/",
+  "http://www.gawler.sa.gov.au/",
+  "http://www.goyder.sa.gov.au/",
+  "http://www.dcgrant.sa.gov.au/",
+  "http://www.holdfast.sa.gov.au/",
+  "http://www.kangarooisland.sa.gov.au/",
+  "http://www.dckem.sa.gov.au/",
+  "http://www.kimba.sa.gov.au/",
+  "http://www.kingstondc.sa.gov.au/",
+  "http://www.light.sa.gov.au/",
+  "http://www.lowereyrepeninsula.sa.gov.au",
+  "http://www.loxtonwaikerie.sa.gov.au/",
+  "http://www.marion.sa.gov.au/",
+  "http://www.mid-murray.sa.gov.au/",
+  "http://www.mitchamcouncil.sa.gov.au/",
+  "https://www.mountbarker.sa.gov.au/",
+  "http://www.mountgambier.sa.gov.au/",
+  "http://www.mtr.sa.gov.au/",
+  "http://www.murraybridge.sa.gov.au/",
+  "http://www.naracoortelucindale.sa.gov.au/",
+  "http://www.nacouncil.sa.gov.au/",
+  "http://www.npsp.sa.gov.au/",
+  "http://www.onkaparingacity.com/",
+  "http://www.orroroo.sa.gov.au/",
+  "http://www.peterborough.sa.gov.au/",
+  "http://www.playford.sa.gov.au/",
+  "https://www.cityofpae.sa.gov.au/",
+  "http://www.portaugusta.sa.gov.au/",
+  "http://www.portlincoln.sa.gov.au/",
+  "http://www.pirie.sa.gov.au/",
+  "http://www.prospect.sa.gov.au/",
+  "http://www.renmarkparinga.sa.gov.au/",
+  "https://www.robe.sa.gov.au/council",
+  "http://www.roxbydowns.com/",
+  "http://www.salisbury.sa.gov.au/",
+  "http://www.southernmallee.sa.gov.au/",
+  "http://www.streakybay.sa.gov.au/",
+  "http://www.tatiara.sa.gov.au/",
+  "http://www.teatreegully.sa.gov.au/",
+  "http://www.tumbybay.sa.gov.au/",
+  "http://www.unley.sa.gov.au/",
+  "http://www.victor.sa.gov.au/",
+  "https://www.wrc.sa.gov.au/",
+  "http://www.walkerville.sa.gov.au/",
+  "http://www.wattlerange.sa.gov.au/",
+  "http://www.westtorrens.sa.gov.au/",
+  "http://www.whyalla.sa.gov.au/",
+  "http://www.wudinna.sa.gov.au/",
+  "http://www.yankalilla.sa.gov.au/",
+  "http://www.yorke.sa.gov.au/",
+];
+
+const WA_WEBSITES = [
+  "www.albany.wa.gov.au",
+  "www.armadale.wa.gov.au",
+  "www.ashburton.wa.gov.au",
+  "www.amrshire.wa.gov.au",
+  "www.bassendean.wa.gov.au",
+  "www.bayswater.wa.gov.au",
+  "www.belmont.wa.gov.au",
+  "www.beverley.wa.gov.au",
+  "www.boddington.wa.gov.au",
+  "www.boyupbrook.wa.gov.au",
+  "www.bridgetown.wa.gov.au",
+  "www.brookton.wa.gov.au",
+  "www.broome.wa.gov.au",
+  "www.shirebt.wa.gov.au",
+  "www.brucerock.wa.gov.au",
+  "www.bunbury.wa.gov.au",
+  "www.busselton.wa.gov.au",
+  "www.cambridge.wa.gov.au",
+  "www.canning.wa.gov.au",
+  "www.capel.wa.gov.au",
+  "www.carnamah.wa.gov.au",
+  "www.carnarvon.wa.gov.au",
+  "www.chapmanvalley.wa.gov.au",
+  "www.chittering.wa.gov.au",
+  "www.shire.gov.cx",
+  "www.claremont.wa.gov.au",
+  "www.cockburn.wa.gov.au",
+  "www.shire.cc/en",
+  "www.collie.wa.gov.au",
+  "www.coolgardie.wa.gov.au",
+  "www.coorow.wa.gov.au",
+  "www.corrigin.wa.gov.au",
+  "www.cottesloe.wa.gov.au",
+  "www.cranbrook.wa.gov.au",
+  "www.cuballing.wa.gov.au",
+  "www.cue.wa.gov.au",
+  "www.cunderdin.wa.gov.au",
+  "www.dalwallinu.wa.gov.au",
+  "www.dandaragan.wa.gov.au",
+  "www.dardanup.wa.gov.au",
+  "www.denmark.wa.gov.au",
+  "www.sdwk.wa.gov.au",
+  "www.donnybrook-balingup.wa.gov.au",
+  "www.dowerin.wa.gov.au",
+  "www.dumbleyung.wa.gov.au",
+  "www.dundas.wa.gov.au",
+  "www.eastfremantle.wa.gov.au",
+  "www.eastpilbara.wa.gov.au",
+  "www.esperance.wa.gov.au",
+  "www.exmouth.wa.gov.au",
+  "www.fremantle.wa.gov.au",
+  "www.gingin.wa.gov.au",
+  "www.gnowangerup.wa.gov.au",
+  "www.goomalling.wa.gov.au",
+  "www.gosnells.wa.gov.au",
+  "www.cgg.wa.gov.au",
+  "www.hallscreek.wa.gov.au",
+  "www.harvey.wa.gov.au",
+  "www.irwin.wa.gov.au",
+  "www.jerramungup.wa.gov.au",
+  "www.joondalup.wa.gov.au",
+  "www.kalamunda.wa.gov.au",
+  "www.ckb.wa.gov.au",
+  "www.karratha.wa.gov.au",
+  "www.katanning.wa.gov.au",
+  "www.kellerberrin.wa.gov.au",
+  "www.kent.wa.gov.au",
+  "www.kojonup.wa.gov.au",
+  "www.kondinin.wa.gov.au",
+  "www.koorda.wa.gov.au",
+  "www.kulin.wa.gov.au",
+  "www.kwinana.wa.gov.au",
+  "www.lakegrace.wa.gov.au",
+  "www.laverton.wa.gov.au",
+  "www.leonora.wa.gov.au",
+  "www.mandurah.wa.gov.au",
+  "www.manjimup.wa.gov.au",
+  "www.meekashire.wa.gov.au",
+  "www.melvillecity.wa.gov.au",
+  "www.menzies.wa.gov.au",
+  "www.merredin.wa.gov.au",
+  "www.mingenew.wa.gov.au",
+  "www.moora.wa.gov.au",
+  "www.morawa.wa.gov.au",
+  "www.mosmanpark.wa.gov.au",
+  "www.mtmagnet.wa.gov.au",
+  "www.mtmarshall.wa.gov.au",
+  "www.mukinbudin.wa.gov.au",
+  "www.mundaring.wa.gov.au",
+  "www.murchison.wa.gov.au",
+  "www.murray.wa.gov.au",
+  "www.nannup.wa.gov.au",
+  "www.narembeen.wa.gov.au",
+  "www.narrogin.wa.gov.au",
+  "www.nedlands.wa.gov.au",
+  "www.ngaanyatjarraku.wa.gov.au",
+  "www.northam.wa.gov.au",
+  "www.northampton.wa.gov.au",
+  "www.nungarin.wa.gov.au",
+  "www.peppermintgrove.wa.gov.au",
+  "www.perenjori.wa.gov.au",
+  "www.perth.wa.gov.au",
+  "www.pingelly.wa.gov.au",
+  "www.plantagenet.wa.gov.au",
+  "www.porthedland.wa.gov.au",
+  "www.quairading.wa.gov.au",
+  "www.ravensthorpe.wa.gov.au",
+  "www.rockingham.wa.gov.au",
+  "www.sandstone.wa.gov.au",
+  "www.sjshire.wa.gov.au",
+  "www.sharkbay.wa.gov.au",
+  "www.southperth.wa.gov.au",
+  "www.stirling.wa.gov.au",
+  "www.subiaco.wa.gov.au",
+  "www.swan.wa.gov.au",
+  "www.tammin.wa.gov.au",
+  "www.threesprings.wa.gov.au",
+  "www.toodyay.wa.gov.au",
+  "www.trayning.wa.gov.au",
+  "www.uppergascoyne.wa.gov.au",
+  "www.victoriapark.wa.gov.au",
+  "www.victoriaplains.wa.gov.au",
+  "www.vincent.wa.gov.au",
+  "www.wagin.wa.gov.au",
+  "www.wandering.wa.gov.au",
+  "www.wanneroo.wa.gov.au",
+  "www.waroona.wa.gov.au",
+  "www.westarthur.wa.gov.au",
+  "www.westonia.wa.gov.au",
+  "www.wickepin.wa.gov.au",
+  "www.williams.wa.gov.au",
+  "www.wiluna.wa.gov.au",
+  "www.wongan.wa.gov.au",
+  "www.woodanilling.wa.gov.au",
+  "www.wyalkatchem.wa.gov.au",
+  "www.swek.wa.gov.au",
+  "www.yalgoo.wa.gov.au",
+  "www.yilgarn.wa.gov.au",
+  "www.york.wa.gov.au",
+];
+
+const QLD_WEBSITES = [
+  "http://www.aurukun.qld.gov.au",
+  "https://www.balonne.qld.gov.au",
+  "https://www.banana.qld.gov.au/",
+  "https://www.barcaldinerc.qld.gov.au",
+  "https://www.barcoo.qld.gov.au",
+  "http://www.btrc.qld.gov.au",
+  "https://www.boulia.qld.gov.au",
+  "https://www.brisbane.qld.gov.au",
+  "https://www.bulloo.qld.gov.au",
+  "http://www.bundaberg.qld.gov.au",
+  "https://www.burdekin.qld.gov.au",
+  "https://www.burke.qld.gov.au",
+  "http://www.cairns.qld.gov.au",
+  "http://www.carpentaria.qld.gov.au",
+  "http://www.cassowarycoast.qld.gov.au",
+  "http://beprepared.chrc.qld.gov.au",
+  "http://www.getready.ctrc.qld.gov.au",
+  "https://cherbourg.qld.gov.au",
+  "https://www.cloncurry.qld.gov.au",
+  "http://www.cook.qld.gov.au",
+  "https://www.croydon.qld.gov.au",
+  "https://www.diamantina.qld.gov.au",
+  "https://www.doomadgee.qld.gov.au",
+  "http://www.douglas.qld.gov.au",
+  "https://www.etheridge.qld.gov.au",
+  "https://www.flinders.qld.gov.au/",
+  "http://www.frasercoast.qld.gov.au",
+  "https://www.gladstone.qld.gov.au",
+  "http://www.cityofgoldcoast.com.au/",
+  "https://www.grc.qld.gov.au",
+  "http://www.gympie.qld.gov.au",
+  "http://www.hinchinbrook.qld.gov.au",
+  "https://www.hopevale.qld.gov.au",
+  "http://emd.ipswich.qld.gov.au",
+  "https://www.isaac.qld.gov.au",
+  "https://www.kowanyama.qld.gov.au",
+  "http://www.livingstone.qld.gov.au",
+  "https://lockhart.qld.gov.au",
+  "https://www.lvrc.qld.gov.au",
+  "https://www.logan.qld.gov.au",
+  "https://www.longreach.qld.gov.au",
+  "http://www.mackay.qld.gov.au",
+  "https://www.mapoon.qld.gov.au",
+  "http://www.maranoa.qld.gov.au",
+  "http://emergency.msc.qld.gov.au",
+  "http://www.mckinlay.qld.gov.au",
+  "https://www.moretonbay.qld.gov.au",
+  "https://www.mornington.qld.gov.au",
+  "https://www.mountisa.qld.gov.au",
+  "https://www.murweh.qld.gov.au/",
+  "http://www.napranum.qld.gov.au",
+  "http://www.noosa.qld.gov.au",
+  "https://www.northburnett.qld.gov.au",
+  "https://www.nparc.qld.gov.au",
+  "https://www.palmcouncil.qld.gov.au",
+  "https://www.paroo.qld.gov.au",
+  "https://www.pormpuraaw.qld.gov.au",
+  "http://www.quilpie.qld.gov.au",
+  "https://www.redland.qld.gov.au",
+  "https://www.richmond.qld.gov.au",
+  "https://rockhamptonregion.qld.gov.au",
+  "http://www.scenicrim.qld.gov.au",
+  "http://www.somerset.qld.gov.au",
+  "http://www.southburnett.qld.gov.au",
+  "http://www.sdrc.qld.gov.au",
+  "https://www.sunshinecoast.qld.gov.au",
+  "http://www.trc.qld.gov.au",
+  "http://www.tr.qld.gov.au",
+  "https://www.torres.qld.gov.au",
+  "http://www.tsirc.qld.gov.au",
+  "http://www.townsville.qld.gov.au",
+  "https://www.weipatownauthority.com.au/",
+  "https://www.wdrc.qld.gov.au",
+  "http://www.whitsundayrc.qld.gov.au",
+  "https://www.winton.qld.gov.au",
+  "https://www.woorabinda.qld.gov.au",
+  "https://www.wujalwujalcouncil.qld.gov.au",
+  "https://www.yarrabah.qld.gov.au/",
+];
+
+const TAS_WEBSITES = [
+  "http://www.bodc.tas.gov.au",
+  "http://www.brighton.tas.gov.au",
+  "http://www.centralcoast.tas.gov.au",
+  "http://www.centralhighlands.tas.gov.au",
+  "http://www.circularhead.tas.gov.au",
+  "http://www.ccc.tas.gov.au",
+  "http://www.derwentvalley.tas.gov.au",
+  "http://www.devonport.tas.gov.au",
+  "http://www.dorset.tas.gov.au",
+  "http://www.flinders.tas.gov.au",
+  "http://www.georgetown.tas.gov.au",
+  "http://www.gsbc.tas.gov.au",
+  "http://www.gcc.tas.gov.au",
+  "http://www.hobartcity.com.au",
+  "http://www.huonvalley.tas.gov.au",
+  "http://www.kentish.tas.gov.au",
+  "http://www.kingborough.tas.gov.au",
+  "http://www.kingisland.tas.gov.au",
+  "http://www.latrobe.tas.gov.au",
+  "http://www.launceston.tas.gov.au",
+  "http://www.meandervalley.tas.gov.au",
+  "http://www.northernmidlands.tas.gov.au",
+  "http://www.sorell.tas.gov.au",
+  "http://www.southernmidlands.tas.gov.au",
+  "http://www.tasman.tas.gov.au",
+  "http://www.warwyn.tas.gov.au",
+  "http://www.westcoast.tas.gov.au",
+  "http://www.wtc.tas.gov.au",
+  "http://www.lgat.tas.gov.au",
+];
+
+// TODO: Share vars between client/scraper
 const WORDS = {
   positive: [
     "public art",
@@ -236,7 +563,9 @@ const WORDS = {
     "exterior",
     "commission",
     "mural",
+    "EOI",
     /expressions? of interest/g,
+    /calls? for artists?/g,
   ],
   negative: [
     "report graffiti",
@@ -256,7 +585,9 @@ function scorePage(dom) {
   const foundPositives = [];
 
   dom.window.document
-    .querySelectorAll('[role="navigation"], [class*="nav" i], nav, script')
+    .querySelectorAll(
+      '[role="navigation"], [class*="nav" i], [class*="menu" i], nav, script'
+    )
     .forEach((el) => el.remove());
 
   let mainContent = dom.window.document
@@ -269,12 +600,12 @@ function scorePage(dom) {
       foundPositives.push(k.toString());
     }
   });
-  WORDS.negative.forEach((k) => {
-    if (mainContent.match(k) !== null) {
-      score--;
-      foundNegatives.push(k.toString());
-    }
-  });
+  // WORDS.negative.forEach((k) => {
+  //   if (mainContent.match(k) !== null) {
+  //     score--;
+  //     foundNegatives.push(k.toString());
+  //   }
+  // });
 
   return { score, matches: { foundNegatives, foundPositives } };
 }
@@ -331,12 +662,14 @@ function notBannedUrlFragment(url) {
     "/files/",
     "_flysystem",
     "/downloads/",
+    "/download/",
     "umbraco",
     "au/link/",
     "download?inline",
     "ePathway",
     "login",
     "events",
+    "edocman",
     "news",
   ];
   return !bannedUrlStrings.some((s) => url.toLowerCase().includes(s));
@@ -363,17 +696,19 @@ async function scrapeAndScore(url) {
 
     const { score, matches } = scorePage(dom);
 
-    if (score > 1) {
+    if (score > 0) {
       console.log(`Match Found for: ${url}`);
     }
 
     const links = dom.window.document.querySelectorAll("a");
+    const title = dom.window.document.title;
 
     return {
       error: false,
-      match: score > 1,
+      match: score > 0,
       matches,
       links,
+      title,
     };
   } catch (error) {
     console.log(`Error scraping ${url}: `, error.message);
@@ -415,7 +750,7 @@ async function scrapeWebsite(targetUrl, baseUrl, state) {
     }
 
     if (res.match) {
-      pagesWithKeyword.push({ url, matches: res.matches });
+      pagesWithKeyword.push({ url, matches: res.matches, title: res.title });
     }
 
     if (res.links.length > 0 && numTimeouts <= maxTimeouts) {
@@ -473,11 +808,25 @@ NSW_WEBSITES.forEach((url) => {
 VIC_WEBSITES.forEach((url) => {
   allLinks.push({ url, state: "VIC" });
 });
+SA_WEBSITES.forEach((url) => {
+  allLinks.push({ url, state: "SA" });
+});
+WA_WEBSITES.forEach((url) => {
+  allLinks.push({ url, state: "WA" });
+});
+TAS_WEBSITES.forEach((url) => {
+  allLinks.push({ url, state: "TAS" });
+});
+QLD_WEBSITES.forEach((url) => {
+  allLinks.push({ url, state: "QLD" });
+});
 
 const smallTest = [
   { url: "https://www.nillumbik.vic.gov.au/", state: "VIC" },
   { url: "https://www.georgesriver.nsw.gov.au/", state: "NSW" },
 ];
+
+console.log(allLinks.length);
 
 console.time("scraping");
 const queue = new Queue({ concurrency: 5 });

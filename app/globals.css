@@ -7,7 +7,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --t-color: rgb(150, 250, 0);
-  --gutter: 5vw;
+  --gutter: 60px;
 }
 
 *,
@@ -26,11 +26,31 @@ body {
 }
 
 section {
-  margin-bottom: var(--gutter);
+  margin-top: calc(var(--gutter) / 2);
 }
 
 section header {
-  margin-bottom: calc(var(--gutter) / 3);
+  margin-bottom: calc(var(--gutter) / 4);
+}
+
+.intro {
+  margin-bottom: calc(var(--gutter) / 2);
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 calc(var(--gutter) / 2);
+}
+
+.formItem {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+form .formItem--Full,
+form h2 {
+  grid-column: 1 / -1;
 }
 
 h1 {
@@ -114,6 +134,62 @@ td {
 .tag {
   display: inline-block;
   margin-left: 3px;
+}
+
+.tagCloud {
+  margin: -5px;
+  margin-bottom: 0;
+}
+
+.tagCloud button {
+  margin: 5px;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 3px 5px;
+  border: 1px solid var(--t-color);
+  text-decoration: none;
+}
+.tagCloud button.selected {
+  color: black;
+  background: var(--t-color);
+  text-decoration: none;
+}
+
+.tagCloud button:hover,
+.tagCloud button:focus {
+  text-decoration: underline;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+form {
+  margin-bottom: var(--gutter);
+}
+
+input {
+  background: black;
+  border: 1px solid var(--t-color);
+  color: var(--t-color);
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+input::placeholder {
+  color: var(--t-color);
+}
+
+input:focus {
+  outline: 1px solid var(--t-color);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
 .resultLink {
