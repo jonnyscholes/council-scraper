@@ -11,6 +11,7 @@ export default async function Home() {
   const baseUrl = process.env.VERCEL === '1' ? `https://${process.env.VERCEL_BRANCH_URL}` : 'http://localhost:3000';
   console.log('baseUrl', baseUrl);
   const data = await fetch(`${baseUrl}/data.json`);
+  console.log('data', data);
   const websites = await data.json();
 
   return (
